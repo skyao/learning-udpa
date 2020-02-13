@@ -97,6 +97,26 @@ googleAnalytics = "c7442f5794ea2abb71c6ff05dc0b8779"
 	weight = 340
 	parent = "api"
 
+[[menu.main]]
+	name   = "设计"
+	identifier = "design"
+	url    = "/design/"
+	weight = 500
+
+[[menu.main]]
+	name   = "Transport"
+	identifier = "design-transport"
+	url    = "/design/transport/"
+	weight = 510
+	parent = "design"
+
+[[menu.main]]
+	name   = "Data Model"
+	identifier = "design-datamodel"
+	url    = "/design/datamodel/"
+	weight = 520
+	parent = "design"
+
 [blackfriday]
 	smartypants	= true
 	fractions = true
